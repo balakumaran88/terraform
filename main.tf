@@ -17,3 +17,8 @@ variable "address" {
         country="london"
     }
 }
+
+variable "hobby" {
+    type=list(string)
+    default=["dance", "code", "surf", "cook"]
+}
